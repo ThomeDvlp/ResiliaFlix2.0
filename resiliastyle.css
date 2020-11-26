@@ -1,0 +1,110 @@
+.imagem-carrossel {
+    object-fit: cover;
+    object-position: 0 10% ;
+    height: 350px;
+}
+.fonte-home{
+font-family: 'Goldman', cursive;
+font-size: 35px;
+color: rgb(5, 5, 70);
+
+}
+
+body {
+    background-color: #c8c8c8;
+}
+
+h1 {
+    color:#3e464c;
+    font-size: 38px;
+    font-family: 'Anton';
+    text-transform: uppercase;
+}
+.cardLargura{
+   max-width: 18rem;
+}
+.cards{
+    object-position: 0 80%;
+    object-fit: cover;
+    height: 350px;
+
+}
+
+h2{
+    color: rgb(5, 5, 71);
+    font-size: 30px;
+    font-family: 'anton';
+    text-transform: uppercase;
+}
+.bordaEspecial{
+    border-color: blue;
+    border: inset;
+
+}
+footer{
+    background-color: rgb(41, 39, 39);
+
+}
+.rodape{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(3, 3, 180);
+}
+
+
+
+@media (max-width: 650px) { 
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    }
+
+    .menu {
+        align-items: center ;
+    }
+
+    
+    .corpo{
+    justify-content: center;
+    width: 90%;
+    }
+
+    .cartaz{
+    width: 100%;
+    }
+
+
+@media (max-width: 400px) { 
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    }
+
+    .menu {
+        align-items: center ;
+    }
+   
+    .corpo{
+    justify-content: center;
+    width: 90%;
+    }
+
+    .cartaz{
+    width: 100%;
+}
+}
