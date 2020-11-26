@@ -1,0 +1,46 @@
+body {
+    background: url(https://tecnoblog.net/wp-content/uploads/2018/12/cartoes-netflix.jpg);
+    height: 400px;
+}
+.form {
+    display: flex;
+    width: 360px;
+    height: 200px;
+    padding: 8% 0;
+    margin-left: 490px;
+    margin-top: 200px;
+    background: grey;
+    max-width: 360px;
+    padding: 40px;
+    align-items: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    opacity: 0.9;
+}
+.paragrafo {
+    color: white;
+    font-size: 18px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    padding-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.botao {
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.botao:hover {
+    transform:scale(1.1);
+    background-color:  rgba(6, 129, 151);
+    font-weight: bold;
+}
+.p-1 {
+    margin-top: 150px;
+}
