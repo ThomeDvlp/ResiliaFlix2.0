@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+
+    color: var(--branco);
+}
+
+:root {
+    --branco: white;
+    --cinza:  #3e464c;
+    --preto: black;
+}
