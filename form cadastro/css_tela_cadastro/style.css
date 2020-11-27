@@ -38,8 +38,6 @@ input[type=number] {
 #container {
     background: var(--cinza);
 
-    opacity: 0.9;
-
     border-radius: 10px;
 }
 

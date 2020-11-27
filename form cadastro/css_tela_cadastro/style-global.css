@@ -6,6 +6,6 @@
 
 :root {
     --branco: white;
-    --cinza:  #3e464c;
+    --cinza:  rgb(62, 70, 76, 0.9);
     --preto: black;
 }
