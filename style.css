@@ -1,5 +1,6 @@
 body {
-    background-color: #c8c8c8;
+    background: url(../ResiliaFlix2.0/img/background.jpeg);
+    background-repeat: no-repeat;
 }
 
 #entrada {

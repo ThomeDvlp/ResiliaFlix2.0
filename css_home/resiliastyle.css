@@ -1,7 +1,12 @@
+#container-navbar {
+    background: rgb(128, 128, 128, 0.7);
+    color: black;
+}
+
 .imagem-carrossel {
     object-fit: cover;
     object-position: 0 10% ;
-    height: 350px;
+    height: 600px;
 }
 .fonte-home{
 font-family: 'Goldman', cursive;
@@ -11,7 +16,7 @@ color: rgb(5, 5, 70);
 }
 
 body {
-    background-color: #c8c8c8;
+    background: url(../img/background.jpeg);
 }
 
 h1 {

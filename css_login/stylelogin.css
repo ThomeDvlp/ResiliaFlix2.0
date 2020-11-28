@@ -1,5 +1,6 @@
 body {
-    background: url(https://tecnoblog.net/wp-content/uploads/2018/12/cartoes-netflix.jpg);
+    background: url(../img/background.jpeg);
+    background-repeat: no-repeat;
 }
 .login {
     display: flex;
@@ -9,13 +10,12 @@ body {
 }
 .form {
     flex-direction: column;
-    background: grey;
+    background: rgb(128, 128, 128, 0.9);
     max-width: 360px;
     padding: 50px;
     margin-top: 50px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    opacity: 0.9;
 }
 .form input {
     outline: 0;
