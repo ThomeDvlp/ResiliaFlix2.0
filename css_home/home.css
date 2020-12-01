@@ -1,7 +1,26 @@
+#container-navbar {
+    background: rgb(128, 128, 128, 0.7);
+    color: black;
+
+    height: 60px;
+}
+
+.nav-link {
+    color: rgb(5, 5, 70);
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.fonte-home img {
+    width: 120px;
+}
+
 .imagem-carrossel {
     object-fit: cover;
     object-position: 0 10% ;
-    height: 350px;
+    height: 750px;
 }
 .fonte-home{
 font-family: 'Goldman', cursive;
@@ -11,7 +30,7 @@ color: rgb(5, 5, 70);
 }
 
 body {
-    background-color: #c8c8c8;
+    background: url(../img/background.jpeg);
 }
 
 h1 {
@@ -20,16 +39,17 @@ h1 {
     font-family: 'Anton';
     text-transform: uppercase;
 }
-.cardLargura{
-   max-width: 18rem;
+.card{
+    border-radius: 10px;
+    
 }
+
+
 .cards{
-    object-position: 0 80%;
-    object-fit: cover;
-    height: 350px;
-
+    
+    min-width: 50px;
+   
 }
-
 h2{
     color: rgb(5, 5, 71);
     font-size: 30px;
@@ -37,8 +57,12 @@ h2{
     text-transform: uppercase;
 }
 .bordaEspecial{
-    border-color: blue;
-    border: inset;
+    background-color: rgb(14, 33, 94);
+    
+    margin: 45px;
+    
+    
+   
 
 }
 footer{
@@ -54,6 +78,12 @@ footer{
 
 @media (max-width: 650px) { 
     
+    body{
+        width: 100%;
+        height: auto;
+        
+    }
+
     h1 {
         text-align: center;
         margin-bottom: 15px;
@@ -80,7 +110,7 @@ footer{
     width: 100%;
     }
 
-
+}
 @media (max-width: 400px) { 
     
     h1 {
@@ -96,7 +126,7 @@ footer{
     }
 
     .menu {
-        align-items: center ;
+        align-items: center;
     }
    
     .corpo{
@@ -107,4 +137,41 @@ footer{
     .cartaz{
     width: 100%;
 }
+}
+
+/* Mudanças Anderson */
+/* BACKGROUND */
+.fundo-externo {
+    overflow: hidden; /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    width: 100%;
+    height: 100%;
+    position: relative; /* criamos um contexto para posicionamento */
+}
+
+.fundo-tela {
+    position: fixed; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.fundo-tela img {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+}
+
+footer {
+    position:absolute;
+    width:100%;
+
+    margin-top: 60px;
+
+    background: rgba( 128, 128, 128, 0.7);
+}
+
+footer img {
+    margin: 5px;
 }
