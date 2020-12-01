@@ -5,7 +5,9 @@
 }
 
 :root {
+    --azul: rgb(5, 5, 70);
+    --azul-opacity: rgb(5, 5, 70, 0.7);
+    --cinza:  rgb(128, 128, 128);
+    --cinza-opacity: rgb(128, 128, 128, 0.7);
     --branco: white;
-    --cinza:  rgb(62, 70, 76, 0.9);
-    --preto: black;
 }

@@ -70,6 +70,45 @@ h2{
     /* background: rgb(5, 5, 70, 0.7); */
     margin: 45px;
 }
+
+/* MODAL COM INFO DOS FILMES */
+.modal-header{
+    background-color: var(--azul);
+}
+
+.modal-header h5 {
+    color: var(--branco);
+}
+
+.modal-header span {
+    color: var(--branco);
+}
+
+.modal-body{
+    background-color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-footer{
+    background-color: var(--azul);
+}
+
+.modal-footer button {
+    background: var(--cinza);
+    color: var(--branco);
+    font-weight: bold;
+
+    border: none;
+}
+
+.modal-footer button:hover {
+    transform: scale(1.1);
+    background: var(--cinza);
+
+    transition: 0.6s;
+}
 /* footer{
     background-color: rgb(41, 39, 39);
 
