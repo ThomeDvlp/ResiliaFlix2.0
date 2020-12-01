@@ -39,14 +39,25 @@ h1 {
     font-family: 'Anton';
     text-transform: uppercase;
 }
+
+#filmes img {
+    border: 6px solid rgb(5, 5, 70, 0.7);
+
+    border-radius: 5px;
+}
+
+#filmes img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .cardLargura{
    max-width: 18rem;
 }
 .cards{
-    object-position: 0 80%;
+    /* object-position: 0 80%; */
     object-fit: cover;
-    height: 350px;
-
+    min-width: 50px;
 }
 
 h2{
@@ -56,9 +67,8 @@ h2{
     text-transform: uppercase;
 }
 .bordaEspecial{
-    border-color: blue;
-    border: inset;
-
+    /* background: rgb(5, 5, 70, 0.7); */
+    margin: 45px;
 }
 /* footer{
     background-color: rgb(41, 39, 39);
