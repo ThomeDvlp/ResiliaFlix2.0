@@ -54,6 +54,7 @@ header {
 
 #contatos {
     background: rgba(128, 128, 128, 0.7);
+    height: 385px;
 }
 
 .card img {
@@ -73,15 +74,13 @@ header {
 }
 
 .card-body button {
-    width: 140px;
-    height: 40px;
+    width: 90px;
+    height: 35px;
 
     background: rgb(5, 5, 70);
 
     border: none;
     border-radius: 5px;
-
-    margin-top: 5px;
 }
 
 
@@ -93,12 +92,13 @@ header {
 }
 
 #btn a {
+    font-size: 9px;
     text-decoration: none;
     color: white;
 }
 
 .card-body img {
-    height: 20px;
+    height: 14px;
 
     margin-right: 8px;
 }
@@ -108,6 +108,7 @@ header {
 }
 
 #meu-botao a {
+    font-size: 9px;
     text-decoration: none;
     color: white;
 }

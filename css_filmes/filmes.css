@@ -4,7 +4,9 @@
 } */
 
 #entrada {
-    margin : 5%;
+    width: 850px;
+    margin-top: 45px;
+    margin-left: 320px;
 }
 
 #textInput {
@@ -136,9 +138,14 @@ header {
     object-fit: cover;
 }
 
+.container-footer {
+    margin-bottom: 36%;
+}
+
 footer {
-    position: absolute;
+    position: relative;
     width:100%;
+    bottom: 0;
 
     background: rgba( 128, 128, 128, 0.7);
 }

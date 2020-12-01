@@ -31,12 +31,12 @@
     padding-right: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.botao {
+.btn {
     margin-top: 15px;
     font-size: 12px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.botao:hover {
+.btn:hover {
     transform:scale(1.1);
     background-color:  rgba(6, 129, 151);
     font-weight: bold;
