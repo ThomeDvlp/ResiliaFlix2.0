@@ -107,6 +107,10 @@ footer {
     background: rgba( 128, 128, 128, 0.7);
 }
 
+footer strong {
+    color: rgb(5, 5, 70);
+}
+
 footer img {
     margin: 5px;
 }

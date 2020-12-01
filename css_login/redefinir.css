@@ -87,3 +87,19 @@
 .fonte-home img {
     width: 120px;
 }
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+
+    background: rgba( 128, 128, 128, 0.7);
+}
+
+footer strong {
+    color: rgb(5, 5, 70);
+}
+
+footer img {
+    margin: 5px;
+}

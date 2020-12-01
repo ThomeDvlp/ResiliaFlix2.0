@@ -60,14 +60,14 @@ h2{
     border: inset;
 
 }
-footer{
+/* footer{
     background-color: rgb(41, 39, 39);
 
-}
-.rodape{
+} */
+/* .rodape{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(3, 3, 180);
-}
+    color: rgb(5, 5, 70);
+} */
 
 
 
@@ -79,10 +79,10 @@ footer{
     }
     
     .container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 15px;
     }
 
     .menu {
@@ -159,6 +159,10 @@ footer {
     margin-top: 60px;
 
     background: rgba( 128, 128, 128, 0.7);
+}
+
+footer strong {
+    color: rgb(5, 5, 70);
 }
 
 footer img {

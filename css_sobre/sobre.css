@@ -52,12 +52,80 @@ header {
     margin-top: 50px;
 }
 
+#contatos {
+    background: rgba(128, 128, 128, 0.7);
+}
+
+.card img {
+    max-height: 210px;
+
+    object-fit: cover;
+}
+
+.card-body h5, p {
+    color: rgb(5, 5, 70);
+}
+
+.card-body a {
+    color: white;
+
+    border: none;
+}
+
+.card-body button {
+    width: 140px;
+    height: 40px;
+
+    background: rgb(5, 5, 70);
+
+    border: none;
+    border-radius: 5px;
+
+    margin-top: 5px;
+}
+
+
+.card-body button:hover {
+    transform: scale(1.1);
+    background: rgb(24, 24, 136);
+
+    transition: 0.6s;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-body img {
+    height: 20px;
+
+    margin-right: 8px;
+}
+
+#meu-botao {
+    margin-top: 32px;
+}
+
+#meu-botao a {
+    text-decoration: none;
+    color: white;
+}
+
+#github {
+    height: 22px;
+}
+
 footer {
     position: absolute;
     width:100%;
     bottom: 0;
 
     background: rgba( 128, 128, 128, 0.7);
+}
+
+footer strong {
+    color: rgb(5, 5, 70);
 }
 
 footer img {
