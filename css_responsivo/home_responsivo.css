@@ -1,0 +1,42 @@
+@media (max-width: 650px) {
+    #container-navbar {
+        height: 50px;
+    }
+
+    #container-navbar img {
+        width: 100px;
+
+        margin-top: -20%;
+    }
+
+    #container-navbar span {
+        width: 20px;
+
+        margin-top: -20px;
+    }
+
+    #main-banner {
+        height: 250px;
+    }
+
+    #main-banner-content {
+        margin-top: 30%;
+        margin-left: -20px;
+    }
+
+    #main-banner-content img {
+        width: 310px;
+
+        padding-left: 80px;
+
+        margin: 0%;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #main-banner {
+        height: 550px;
+    }
+
+}

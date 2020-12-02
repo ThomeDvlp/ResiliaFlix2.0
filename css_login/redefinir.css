@@ -7,9 +7,10 @@
     width: 360px;
     height: 200px;
     padding: 8% 0;
-    margin-left: 490px;
+    margin-left: 525px;
     margin-top: 200px;
-    background: rgb(128, 128, 128, 0.7); /*alteração Anderson*/
+    background: rgb(128, 128, 128, 0.7); 
+    border-radius: 5px;
     max-width: 360px;
     padding: 40px;
     align-items: center;
@@ -25,16 +26,19 @@
 .form input {
     outline: 0;
     background: #f2f2f2;
+    border-radius: 5px;
     width: 100%;
     border: 0;
     padding: 15px;
     padding-right: 10px;
+    margin-top: 8px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .btn {
     margin-top: 15px;
     font-size: 12px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .btn:hover {
     transform:scale(1.1);

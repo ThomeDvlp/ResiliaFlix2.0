@@ -54,6 +54,7 @@ h1 {
 .cardLargura{
    max-width: 18rem;
 }
+
 .cards{
     /* object-position: 0 80%; */
     object-fit: cover;
@@ -69,6 +70,43 @@ h2{
 .bordaEspecial{
     /* background: rgb(5, 5, 70, 0.7); */
     margin: 45px;
+}
+
+/* IMAGENS EM CIMA */
+#carouselExampleIndicators {
+    max-height: 600px;
+}
+
+.imagem-carrosel {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* IMAGENS EM CIMA */
+#main-banner {
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#main-banner-content img {
+    width: 500px;
+
+    padding-left: 150px;
+
+    margin-top: 150px;
+}
+
+#main-banner-content {
+    height: 200px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 /* MODAL COM INFO DOS FILMES */
@@ -202,7 +240,7 @@ h2{
 }
 
 footer {
-    position:absolute;
+    position: absolute;
     width:100%;
 
     margin-top: 60px;

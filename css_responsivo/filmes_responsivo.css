@@ -1,0 +1,40 @@
+@media (max-width: 650px) {
+    #entrada {
+
+        width: 63%;
+        margin-left: 17%;
+    }
+
+    #entrada input {
+        max-width: 350px;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-filmes {
+        width: 250px;
+
+        margin-top: 10%;
+        margin-left: 21%;
+    }
+
+    section:hover {
+        font-size: 15px;
+
+        transition: 0.3s;
+    }
+
+    .container-footer {
+        padding-top: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #entrada {
+        width: 80%;
+
+        margin-left: 16%;
+    }
+
+}

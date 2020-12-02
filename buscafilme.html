@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css_filmes/filmes.css">
     <link rel="stylesheet" href="css_global/style-global.css">
     <link rel="stylesheet" href="css_global/reset.css">
+    <link rel="stylesheet" href="css_responsivo/filmes_responsivo.css">
     <link rel="shortcut icon" href="img/favicon.png" />
     <title>ResiliaFlix2.0 Buscar</title>
 </head>
@@ -23,7 +24,7 @@
     <nav id="container-navbar" class="navbar navbar-expand-lg fixed-top ">
         <a class="fonte-home" href="home.html"><img src="img/logo.png" alt=""></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,29 +54,17 @@
 
 <body>
 
-
-    <!-- <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
-        </div>
-        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-      </div>
-      
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Procura por Filme ou Série" aria-label="Recipient's username" aria-describedby="button-addon2">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Procura</button>
-        </div>
-      </div> -->
     <div class="input-group mb-3 search-input" id='entrada'>
         <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default">TITULO</span>
+            <span class="input-group-text" id="inputGroup-sizing-default">TITLE</span>
         </div>
         <input type="text" class="form-control" id="textInput" aria-label="Sizing example input"
             aria-describedby="inputGroup-sizing-default">
     </div>
-    <!-- <p class="alert alert-danger hidden search-input" role="alert" id="errorSearch"></p> -->
-    <section>
+        <!-- <p class="alert alert-danger hidden search-input" role="alert" id="errorSearch"></p> -->
+
+
+    <section class="card-filmes">
         <h1 class="d-flex justify-content-start popular-movies title-popular-movie"></h1>
         <div class="container">
             <picture class="row d-flex justify-content-around container-movie-poster" id="picture">
@@ -84,6 +73,7 @@
         </div>
     </section>
 
+    <!-- MODAL PESQUISA -->
     <div class="modal fade" id="ModalScrollable" tabindex="-1" role="dialog" aria-labelledby="ModalScrollableTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -106,7 +96,7 @@
 
     <div class="container-footer"></div>
     <footer class=" p-1">
-        
+
         <section class="icon rodape text-center">
             <div>
                 <p class="text-light m-0  rounded float-left "></p><a href=""><img src="img/popcorn.png" width="30"

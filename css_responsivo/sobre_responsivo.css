@@ -1,0 +1,47 @@
+@media (max-width: 650px) {
+    .texto {
+        margin-top: 5%;
+    }
+
+    #container {
+        flex-direction: column;
+
+        margin-left: 20%;
+        margin-bottom: 19%;
+    }
+
+    
+    .grid-class1 {
+        flex-direction: column;
+    }
+    
+    .grid-class2 {
+        flex-direction: column;
+    }  
+
+    #contatos {
+        margin-bottom: 5%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #container {
+        margin-bottom: 19%;
+        margin-left: 17%;
+        flex-direction: column;
+    }
+
+    .grid-class1 {
+        display: flex;
+    }
+    
+    .grid-class2 {
+        display: flex;
+    }
+
+    #contatos {
+        margin: 3%;
+    }
+
+}
