@@ -47,20 +47,12 @@ header {
 }
 
 #texto {
-<<<<<<< HEAD
     margin-top: 3%;
-=======
-    margin-top: 5%;
->>>>>>> 8b8028d77dd90549c3e1700b3d764e182542da0d
     margin-left: 10%;
     margin-right: 10%;
     font-size: 20px;
     padding: 2%;
-<<<<<<< HEAD
     background-color: rgb(128, 128, 128, 0.9);
-=======
-    background-color: whitesmoke;
->>>>>>> 8b8028d77dd90549c3e1700b3d764e182542da0d
     border-radius: 5px;
   }
 
@@ -73,8 +65,8 @@ header {
 
 /* CARD SOBRE */
 #container {
-    margin-top: 25px;
-    margin-left: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 #contatos {
