@@ -47,6 +47,23 @@ header {
     width: 120px;
 }
 
+#texto {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    padding: 2%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+
+.container-sobre {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
 /* CARD SOBRE */
 #container {
     margin-top: 50px;
@@ -54,11 +71,11 @@ header {
 
 #contatos {
     background: rgba(128, 128, 128, 0.7);
-    height: 385px;
+    height: 350px;
 }
 
 .card img {
-    max-height: 210px;
+    max-height: 180px;
 
     object-fit: cover;
 }
@@ -81,6 +98,8 @@ header {
 
     border: none;
     border-radius: 5px;
+
+    margin-top: 5px;
 }
 
 
@@ -95,10 +114,11 @@ header {
     font-size: 9px;
     text-decoration: none;
     color: white;
+    padding: 0;
 }
 
 .card-body img {
-    height: 14px;
+    height: 20px;
 
     margin-right: 8px;
 }
@@ -108,7 +128,6 @@ header {
 }
 
 #meu-botao a {
-    font-size: 9px;
     text-decoration: none;
     color: white;
 }
@@ -118,7 +137,8 @@ header {
 }
 
 footer {
-    position: absolute;
+    margin-top: 20px;
+    position: fixed;
     width:100%;
     bottom: 0;
 
